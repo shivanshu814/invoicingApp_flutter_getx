@@ -65,6 +65,18 @@ class NewBusinessScreen extends StatelessWidget {
                           height: Dimensions.calcH(100),
                           isRequired: true,
                         ),
+                        CustomInput_eng(
+                          controller: controller.businessAddressInputController,
+                          label: AppStrings.ADD_BUSINESS_ADDRESS,
+                          height: Dimensions.calcH(100),
+                          isRequired: true,
+                        ),
+                        CustomInput_eng(
+                          controller: controller.businessAddressInputController,
+                          label: AppStrings.ADD_BUSINESS_ADDRESS,
+                          height: Dimensions.calcH(100),
+                          isRequired: true,
+                        ),
                       ],
                     ),
                     GetBuilder<InvoiceController>(
